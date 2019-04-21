@@ -1,0 +1,7 @@
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\bin\Debug\CodeWars1.exe.config
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\bin\Debug\CodeWars1.exe
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\bin\Debug\CodeWars1.pdb
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\obj\Debug\CodeWars1.csprojAssemblyReference.cache
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\obj\Debug\CodeWars1.csproj.CoreCompileInputs.cache
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\obj\Debug\CodeWars1.exe
+C:\Users\laszl\Documents\Programozás\greenfox\CodeWars\CodeWars1\CodeWars1\obj\Debug\CodeWars1.pdb
