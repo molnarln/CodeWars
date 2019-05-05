@@ -88,7 +88,6 @@ namespace CodeWars1
                 {
                     Console.Write(item + "|");
                 }
-
                 Console.WriteLine();
             }
 
