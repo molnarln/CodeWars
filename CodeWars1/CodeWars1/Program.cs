@@ -39,6 +39,8 @@ namespace CodeWars1
 
             Console.WriteLine(ValidParentheses.ValidParenthesesMain("((dfadsfa)((fdsafdsa))"));
 
+            //Test DrawDiamonds PrintMethod
+            Console.WriteLine(DrawDiamond.PrintMethod(7));
             Console.ReadKey();
         }
     }

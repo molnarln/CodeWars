@@ -45,6 +45,7 @@
     <Compile Include="AddBinary.cs" />
     <Compile Include="CountBits.cs" />
     <Compile Include="DisEmVowel.cs" />
+    <Compile Include="DrawDiamond.cs" />
     <Compile Include="FriendOrFoe.cs" />
     <Compile Include="IQ.cs" />
     <Compile Include="Isogram.cs" />
