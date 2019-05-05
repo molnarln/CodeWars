@@ -50,6 +50,7 @@
     <Compile Include="IQ.cs" />
     <Compile Include="Isogram.cs" />
     <Compile Include="MinAndMax.cs" />
+    <Compile Include="MultiplyMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidParentheses.cs" />

@@ -46,6 +46,56 @@ namespace CodeWars1
             XBonacci xBonacci = new XBonacci() { };
             double[] result = xBonacci.XBonacciFunction(new double[] { 0, 0, 1 }, 34);
             result.ToList().ForEach(x => Console.Write(x + " "));
+            Console.WriteLine();
+
+            //Test MultiplyMatrixFunction 
+            //Actualli this is not a codewars exercise, just random practice...
+            int[][] inputMatrix = new int[4][];
+            inputMatrix[0] = new int[] { 1, 3, 6, 2 };
+            inputMatrix[1] = new int[] { 7, 5, 6, 1 };
+            inputMatrix[2] = new int[] { 3, 3, 1, 5 };
+            inputMatrix[3] = new int[] { 9, 0, 5, 3 };
+
+            MultiplyMatrix mm = new MultiplyMatrix();
+            int[][] outputMatrix = mm.MultiplyMatrixFunction(inputMatrix);
+            foreach (var row in outputMatrix)
+            {
+                Console.Write("|");
+                foreach (var element in row)
+                {
+                    Console.Write(element + "|");
+                }
+                Console.WriteLine();
+            }
+
+            //Test MultiplyMatrixFunctionWithMultiDimensionalArray
+            Console.WriteLine("Same test with multidimensional array:");
+            int[,] inputMatrix2 = new int[4, 4] {
+                { 1, 3, 6, 2 },
+                { 7, 5, 6, 1 },
+                { 3, 3, 1, 5 },
+                { 9, 0, 5, 3 }
+            };
+
+            MultiplyMatrix mm2 = new MultiplyMatrix();
+            int[,] outputmatrix2 = mm2.MultiplyMatrixFunctionWithMultiDimensionalArray(inputMatrix2);
+            for (int i = 0; i < outputmatrix2.GetLength(0); i++)
+            {
+                int[] row = Enumerable.Range(0, outputmatrix2.GetLength(1)).Select(x => outputmatrix2[i, x]).ToArray();
+
+                Console.Write("|");
+                foreach (var item in row)
+                {
+                    Console.Write(item + "|");
+                }
+
+                Console.WriteLine();
+            }
+
+
+
+
+
 
             Console.ReadKey();
         }
