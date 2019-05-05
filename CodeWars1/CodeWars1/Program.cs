@@ -44,7 +44,7 @@ namespace CodeWars1
 
             //Test XBonacciFunction
             XBonacci xBonacci = new XBonacci() { };
-            double[] result = xBonacci.XBonacciFunction(new double[] { 6, 3, 17 }, 38);
+            double[] result = xBonacci.XBonacciFunction(new double[] { 0, 0, 1 }, 34);
             result.ToList().ForEach(x => Console.Write(x + " "));
 
             Console.ReadKey();

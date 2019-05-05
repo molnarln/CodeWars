@@ -14,6 +14,7 @@ namespace CodeWars1
             {
                 return new double[0];
             }
+
             int numberOfAdd = signature.Length;
             double[] xBonacci = new double[n];
 
@@ -22,10 +23,11 @@ namespace CodeWars1
                 xBonacci[i] = signature[i];
             }
 
-            for (int i = signature.Length; i < n; i++)
+            for (int i = 3; i < n; i++)
             {
-                xBonacci[i] = xBonacci[i - 3] + xBonacci[i - 2] + xBonacci[i - 1];
+                xBonacci[i] = xBonacci[i-3] + xBonacci[i -2] + xBonacci[i -1];
             }
+
             return xBonacci;
         }
     }
