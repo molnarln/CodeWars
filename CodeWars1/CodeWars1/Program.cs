@@ -21,7 +21,7 @@ namespace CodeWars1
             Console.WriteLine(MinAndMax.HighAndLow("1 9 3 4 -5")); // return "9 -5"
 
             //Test AddBinaryMethod
-            Console.WriteLine(AddBinary.AddBinaryFunction(3,5));
+            Console.WriteLine(AddBinary.AddBinaryFunction(3, 5));
 
             //Test IQ.Test
             Console.WriteLine(IQ.Test("2 4 7 8 10"));
@@ -41,6 +41,12 @@ namespace CodeWars1
 
             //Test DrawDiamonds PrintMethod
             Console.WriteLine(DrawDiamond.PrintMethod(7));
+
+            //Test XBonacciFunction
+            XBonacci xBonacci = new XBonacci() { };
+            double[] result = xBonacci.XBonacciFunction(new double[] { 6, 3, 17 }, 38);
+            result.ToList().ForEach(x => Console.Write(x + " "));
+
             Console.ReadKey();
         }
     }
