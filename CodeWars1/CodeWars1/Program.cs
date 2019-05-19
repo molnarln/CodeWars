@@ -95,7 +95,7 @@ namespace CodeWars1
 
             Delayer d = new Delayer();
 
-            Task.Run(async () => d.DelayFunction()).GetAwaiter().GetResult();
+            Task.Run(async () => await d.DelayFunction()).GetAwaiter().GetResult();
 
             //Test TwoSumFunction
             int[] inputForTwoSumFunction = new int[] { 2, 2, 3 };
@@ -105,7 +105,7 @@ namespace CodeWars1
 
 
 
-            Console.Read();
+            //Console.Read();
         }
     }
 }
