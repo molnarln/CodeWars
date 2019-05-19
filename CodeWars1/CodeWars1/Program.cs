@@ -49,12 +49,14 @@ namespace CodeWars1
             Console.WriteLine();
 
             //Test MultiplyMatrixFunction 
-            //Actualli this is not a codewars exercise, just random practice...
+            //Actually this is not a codewars exercise, just random practice...
             int[][] inputMatrix = new int[4][];
-            inputMatrix[0] = new int[] { 1, 3, 6, 2 };
+            inputMatrix[0] = new int[] { 1, 3, 6, 2, 3 };
             inputMatrix[1] = new int[] { 7, 5, 6, 1 };
             inputMatrix[2] = new int[] { 3, 3, 1, 5 };
             inputMatrix[3] = new int[] { 9, 0, 5, 3 };
+
+            Console.WriteLine($"The second row thrird item is: {inputMatrix[1][2]}");
 
             MultiplyMatrix mm = new MultiplyMatrix();
             int[][] outputMatrix = mm.MultiplyMatrixFunction(inputMatrix);
@@ -91,12 +93,19 @@ namespace CodeWars1
                 Console.WriteLine();
             }
 
+            Delayer d = new Delayer();
+
+            Task.Run(async () => d.DelayFunction()).GetAwaiter().GetResult();
+
+            //Test TwoSumFunction
+            int[] inputForTwoSumFunction = new int[] { 2, 2, 3 };
+            int target = 4;
+            TwoSum.TwoSumFunction(inputForTwoSumFunction, target).ToList().ForEach(x => Console.WriteLine(x));
 
 
 
 
-
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
