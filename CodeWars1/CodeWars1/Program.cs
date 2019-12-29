@@ -93,9 +93,6 @@ namespace CodeWars1
                 Console.WriteLine();
             }
 
-            Delayer d = new Delayer();
-
-            Task.Run(async () => await d.DelayFunction()).GetAwaiter().GetResult();
 
             //Test TwoSumFunction
             int[] inputForTwoSumFunction = new int[] { 2, 2, 3 };
@@ -103,9 +100,13 @@ namespace CodeWars1
             TwoSum.TwoSumFunction(inputForTwoSumFunction, target).ToList().ForEach(x => Console.WriteLine(x));
 
 
+            Delayer d = new Delayer();
+            Task.Run(async () => await d.DelayFunction()).GetAwaiter().GetResult();
+            //Test Sweden class
+            Sweden s = new Sweden();
+            Console.WriteLine(s.Sum2(0)); 
 
-
-            //Console.Read();
+            Console.Read();
         }
     }
 }
