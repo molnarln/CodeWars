@@ -13,7 +13,7 @@ namespace CodeWars
                 .GroupBy(e => e)
                 .ToDictionary(e => e.Key, e => e.Count());
 
-            return charDictionary.Where(e => e.Value == charDictionary.Values.Max()).First().Key; 
+            return charDictionary.Where(e => e.Value == charDictionary.Values.Max()).First().Key;
         }
     }
 }
