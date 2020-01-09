@@ -35,6 +35,7 @@ namespace CodeWars
             Console.WriteLine(WordCounter.CountWords("  , e   .. "));
             Console.WriteLine("\n" + DiceHistogram.CreateHistogram(new int[] { 7, 3, 10, 1, 0, 5 }));
             Console.WriteLine(FindMostFrequent.FindMostFrequentFunction("alma"));
+            Console.WriteLine(MinimumSum.MinimumSumFunction(new int[] { 5, 4, 3, 3 }));
         }
     }
 }
