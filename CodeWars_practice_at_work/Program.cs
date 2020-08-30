@@ -37,6 +37,7 @@ namespace CodeWars
             //Console.WriteLine(FindMostFrequent.FindMostFrequentFunction("alma"));
             //Console.WriteLine(MinimumSum.MinimumSumFunction(new int[] { 5, 4, 3, 3 }));
             Console.WriteLine(StringReverser.ReverseString("world"));
+            Console.WriteLine(new Color(23, 32, 45).Luminance());            
         }
     }
 }
