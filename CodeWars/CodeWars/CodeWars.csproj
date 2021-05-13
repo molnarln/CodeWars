@@ -42,26 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddBinary.cs" />
-    <Compile Include="CountBits.cs" />
-    <Compile Include="Delayer.cs" />
-    <Compile Include="DisEmVowel.cs" />
-    <Compile Include="DrawDiamond.cs" />
-    <Compile Include="FriendOrFoe.cs" />
-    <Compile Include="IQ.cs" />
-    <Compile Include="Isogram.cs" />
-    <Compile Include="MinAndMax.cs" />
-    <Compile Include="MultiplyMatrix.cs" />
+    <Compile Include="Kata\AddBinary.cs" />
+    <Compile Include="Kata\CountBits.cs" />
+    <Compile Include="Kata\Delayer.cs" />
+    <Compile Include="Kata\DisEmVowel.cs" />
+    <Compile Include="Kata\DrawDiamond.cs" />
+    <Compile Include="Kata\FriendOrFoe.cs" />
+    <Compile Include="Kata\IQ.cs" />
+    <Compile Include="Kata\Isogram.cs" />
+    <Compile Include="Kata\MinAndMax.cs" />
+    <Compile Include="Kata\MultiplyMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sweden.cs" />
-    <Compile Include="TwoSum.cs" />
-    <Compile Include="ValidParentheses.cs" />
-    <Compile Include="XBonacci.cs" />
-    <Compile Include="XO.cs" />
+    <Compile Include="Kata\Sweden.cs" />
+    <Compile Include="Kata\TwoSum.cs" />
+    <Compile Include="Kata\ValidParentheses.cs" />
+    <Compile Include="Kata\XBonacci.cs" />
+    <Compile Include="Kata\XO.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Kata\App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

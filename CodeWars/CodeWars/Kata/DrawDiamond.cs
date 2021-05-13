@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CodeWars1
+namespace CodeWars
 {
     class DrawDiamond
     {

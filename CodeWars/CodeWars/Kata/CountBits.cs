@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CodeWars1
+namespace CodeWars
 {
     class CountBits
     {
