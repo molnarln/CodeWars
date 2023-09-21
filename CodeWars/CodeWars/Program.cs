@@ -104,9 +104,11 @@ namespace CodeWars
             Task.Run(async () => await d.DelayFunction()).GetAwaiter().GetResult();
             //Test Sweden class
             Sweden s = new Sweden();
-            Console.WriteLine(s.Sum2(0)); 
+            Console.WriteLine(s.Sum2(0));
 
+            Console.WriteLine("Terminating application...");
             Console.Read();
+
         }
     }
 }
